@@ -1,8 +1,8 @@
-# Exno-3-Prompt-Engg
+# Exno-2-Prompt-Engg
 
-# Ex.No: 3 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
+# Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
 ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE:                                                                            
+### DATE:                                                                          
 ### REGISTER NUMBER : 212222110016
  
 ###Aim:
@@ -36,90 +36,153 @@ Sure! Here's a clearly written section for both the **Algorithm** and **Program*
 
 ---
 
-### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms**
+### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms*
 
-1. **Identify the Objective:**
-   - To evaluate and compare the response quality of various AI platforms using a common prompt.
-   
-2. **Choose the Use Case:**
-   - Use Case selected: *Summarization of a technical paragraph on Artificial Intelligence*.
+### Expected Output from Different Platforms:
+### Straightforward Prompts:
+Description: Simple, direct requests that require a factual or clear response.
 
-3. **Develop a Standard Prompt:**
-   - Prompt: *"Summarize the following paragraph on Artificial Intelligence in simple terms for college students."*
+Example: "What is the capital of France?"
 
-4. **Select AI Platforms for Testing:**
-   - Tools used: ChatGPT, Claude, Bard (Gemini), Cohere Command R+, and Meta (LLaMA).
+AI Performance:
 
-5. **Input and Execute Prompts:**
-   - Input the same prompt across all platforms.
-   - Collect the generated responses.
+ChatGPT: Quick, accurate responses, often with additional context or detail.
 
-6. **Evaluate the Output:**
-   - Use the following evaluation metrics:
-     - Accuracy
-     - Clarity
-     - Depth
-     - Relevance
+Claude: Provides clear, concise answers but sometimes adds nuance.
 
-7. **Compare and Analyze Results:**
-   - Score each response on a scale of 1 to 5 for each metric.
-   - Summarize the comparative performance in a table.
+Bard: Responsive with direct answers but may include context that goes beyond the query.
 
----
+Cohere Command: Effective for quick, straightforward answers with fewer embellishments.
 
-### **Program: Write Prompts in Different Tools, Compare and Analyse the Output**
+Meta: Depends on the model used, but typically provides short and to-the-point responses.
 
-**Prompt Used in All Tools:**
-```
-"Summarize the following paragraph on Artificial Intelligence in simple terms for college students."
-```
+### Tabular Format Prompting:
+Description: Requests for data or information to be presented in a tabular format.
 
-**Input Paragraph:**
-```
-Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think and act like humans. These systems can learn from data, identify patterns, and make decisions with minimal human intervention. AI technologies include machine learning, natural language processing, robotics, and more. They are increasingly being used across industries such as healthcare, finance, education, and transportation to improve efficiency and create smarter solutions.
-```
+Example: "Create a table comparing the features of AI models."
 
-**Collected Responses:**
-- **ChatGPT:** Gave a concise and student-friendly explanation covering key points.
-- **Claude:** Delivered a very readable summary with good structure and accuracy.
-- **Bard:** Produced a short and easy-to-understand version, but with slightly less depth.
-- **Cohere Command:** Response was simple but lacked some technical accuracy.
-- **Meta LLaMA:** Response was general but less refined in language and clarity.
+| **AI Platform**   | **Performance**                                                       |
+|-------------------|----------------------------------------------------------------------|
+| **ChatGPT**       | Capable of structuring data in a readable table, offering detailed formatting. |
+| **Claude**        | Strong with structured data but may not always format neatly.        |
+| **Bard**          | Can present structured data but may not always be in perfect tabular form. |
+| **Cohere Command**| Effective in providing structured responses but may lack advanced formatting. |
+| **Meta**          | The output format can vary depending on the model, but typically straightforward. |
 
-**Analysis Table:**
+### Missing Word Prompting:
+Description: A prompt where a word or phrase is missing, and the AI needs to fill in the blank.
 
-| Platform        | Accuracy | Clarity | Depth | Relevance | Total (20) |
-|----------------|----------|---------|-------|-----------|-------------|
-| ChatGPT         | 5        | 5       | 4     | 5         | 19          |
-| Claude          | 4        | 5       | 4     | 4         | 17          |
-| Bard (Gemini)   | 4        | 4       | 3     | 4         | 15          |
-| Cohere Command  | 3        | 4       | 3     | 4         | 14          |
-| Meta (LLaMA 2)  | 3        | 3       | 4     | 3         | 13          |
+Example: "The capital of Italy is ___."
 
----
+AI Performance:
 
-Let me know if you want this formatted as a PDF, or need help inserting screenshots or graphical charts.
+ChatGPT: Can handle these efficiently and contextually.
 
+Claude: Accurate, filling in the blank with appropriate words based on context.
 
+Bard: Good at filling in the blanks with sensible choices.
 
+Cohere Command: Performs well but might miss contextual subtleties.
 
+Meta: Effectiveness depends on the exact question, but generally capable.
 
+### Preceding Question Prompting:
+Description: Prompts that refer to a previous question or statement.
 
+Example: "Given that the capital of France is Paris, what is the capital of Italy?"
 
+AI Performance:
 
+ChatGPT: Strong memory handling, accurately processing the context of preceding queries.
 
+Claude: Capable, but memory handling can sometimes be less consistent.
 
+Bard: Good at making connections between questions but occasionally lacks continuity.
 
+Cohere Command: Handles context moderately well, though it may miss nuanced connections.
 
+Meta: Stronger when clear references are made, but may falter with long chains.
 
+### Comparative Analysis Prompt:
+Description: Requests that require comparing two or more entities, concepts, or ideas.
 
+Example: "Compare the features of Python and Java."
 
+AI Performance:
 
+ChatGPT: Excellent at breaking down comparisons with detailed insights.
 
+Claude: Provides detailed comparisons, emphasizing pros and cons.
 
+Bard: Offers insightful, well-rounded comparisons.
 
+Cohere Command: Efficient but may offer more concise comparisons without elaborating on each point.
 
+Meta: Good for straightforward comparisons, but deeper analysis might be missed.
 
+### Experiential Perspective Prompt:
+Description: Prompts that ask for subjective or opinion-based responses, often based on personal experience.
+
+Example: "What is the best way to improve focus while studying?"
+
+AI Performance:
+
+ChatGPT: Provides a balance of subjective and generalized advice.
+
+Claude: Delivers nuanced responses, integrating empathy and reasoning.
+
+Bard: Strong in providing practical and research-backed suggestions.
+
+Cohere Command: Can offer solid advice but may lack a personal touch.
+
+Meta: Provides responses based on general knowledge, lacking personal perspective.
+
+### Everyday Functioning Prompts:
+Description: Prompts that relate to common, everyday tasks or scenarios.
+
+Example: "How do I prepare for a job interview?"
+
+AI Performance:
+
+ChatGPT: Provides detailed, step-by-step guides.
+
+Claude: Offers practical advice, often more personalized.
+
+Bard: Gives actionable, everyday advice, with examples.
+
+Cohere Command: Functional and direct, but with less personalization.
+
+Meta: Straightforward advice, focusing on general best practices.
+
+### Universal Prompt Structures:
+Description: Prompts with a flexible structure, designed to be broadly applicable.
+
+Example: "Explain the process of machine learning in simple terms."
+
+AI Performance:
+
+ChatGPT: Excellent at tailoring explanations to different levels of complexity.
+
+Claude: Very adaptable in offering explanations at multiple levels.
+
+Bard: Good at offering universal explanations but may be verbose.
+
+Cohere Command: Provides concise, clear explanations, especially for simple queries.
+
+Meta: Generally strong in universal explanations, though may lack depth in complex topics.
+
+### Summary of Responses:
+| Prompt Type                     | **ChatGPT**                        | **Claude**                        | **Bard**                         | **Cohere Command**               | **Meta**                          |
+|----------------------------------|-----------------------------------|----------------------------------|---------------------------------|----------------------------------|-----------------------------------|
+| **Straightforward Prompts**      | Excellent, clear, and quick       | Clear and concise                | Responsive and detailed         | Efficient but less detailed      | Good, typically straightforward  |
+| **Tabular Format Prompting**    | Excellent formatting capabilities | Moderate, occasionally messy     | Strong but occasionally incomplete | Less adept at formatting         | Varies, typically simple tables  |
+| **Missing Word Prompting**      | Handles context well              | Accurate but less context-aware  | Good at filling blanks          | Solid, but misses nuances        | Effective for simple blanks      |
+| **Preceding Question Prompting**| Strong memory for context         | Moderate memory handling         | Good for short context          | Works well with shorter context  | Can be inconsistent with longer chains |
+| **Comparative Analysis Prompt** | Deep, insightful comparisons      | Good at breaking down pros/cons  | Balanced, insightful            | Concise but lacks depth          | Provides simple comparisons      |
+| **Experiential Perspective Prompt** | Offers practical and empathetic responses | Nuanced and thoughtful          | Practical with real-world focus | Less personal, more factual      | General advice, lacks empathy    |
+| **Everyday Functioning Prompts**| Detailed, step-by-step guides     | Practical, with personal touch   | Actionable, with examples       | Functional, straightforward      | Good general advice              |
+| **Universal Prompt Structures** | Excellent at adapting to needs    | Versatile with multiple contexts | Strong explanations with examples| Concise, clear for simple topics | Clear, but lacks depth in complexity |
+| **Prompt Refinements/Size Limitations** | Handles long prompts well      | Moderate handling of complex inputs | Works well with medium-length   | Handles long prompts, but less detail | Works well with medium-length    |
 
 ### Result:
 Thus the Prompting tools are executed and analysed sucessfully .
